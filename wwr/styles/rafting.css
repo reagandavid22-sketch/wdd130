@@ -267,3 +267,118 @@ footer .socialmedia img {
 .socialmedia a {
     text-decoration: none;
 }
+
+.company-info {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.company-info h2 {
+    margin-bottom: 5px;
+}
+
+.company-info p {
+    margin: 2px 0;
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    align-items: start;
+    margin: 15px 0 20px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+.contact-form {
+    display: grid;
+    gap: 8px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 65px 1fr;
+    align-items: center;
+    gap: 8px;
+}
+
+.form-row input,
+.form-row textarea {
+    padding: 6px;
+    font-family: var(--body-font);
+}
+
+.form-row textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+.contact-form fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 6px;
+}
+
+.contact-form legend {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.contact-form fieldset label {
+    display: block;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9rem;
+}
+
+.contact-form button {
+    padding: 7px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.employees {
+    border: 1px solid #777;
+    padding: 8px;
+    margin-top: 15px;
+}
+
+.employees h2 {
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.employee-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.employee-container figure {
+    text-align: center;
+    margin: 0;
+}
+
+.employee-container img {
+    width: 80px;
+    height: 65px;
+    object-fit: cover;
+}
+
+.employee-container figcaption {
+    margin-top: 3px;
+    font-size: 0.85rem;
+}
