@@ -250,20 +250,6 @@ footer p {
     padding: 0;
 }
 
-footer .socialmedia {
-    display: flex;
-
-    gap: 10px;
-
-    margin: 0;
-    padding: 0;
-}
-
-footer .socialmedia img {
-    width: 35px;
-    height: 35px;
-}
-
 .socialmedia a {
     text-decoration: none;
 }
