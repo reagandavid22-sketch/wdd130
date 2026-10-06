@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,9 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-      content="Learn about our white water rafting company, our history, mission, and exciting adventures for everyone.">
+      content="Contact our white water rafting company to learn more about our rafting trips, adventure, and services.">
     <meta name="author" content="Reagan Adjartey">
     <title>Contact Us | White Water Rafting Company</title>
+
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -25,68 +27,82 @@
     </header>
 
     <main>
-        <h1>White Water Rafting</h1>
+
+        <h1>Contact Us</h1>
 
         <section class="company-info">
             <h2>White Water Rafting Company</h2>
+
             <p>123 Main River Street</p>
             <p>Manila, Philippines</p>
             <p>+1 999 999 9999</p>
             <p>info@whitewater.com</p>
         </section>
 
-        <section class="contact-layout">
+        <div class="contact-layout">
 
             <div class="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61775.916550504015!2d120.93828341882406!3d14.599372898921358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca03571ec38b%3A0x69d1d5751069c11f!2sManila%2C%20Metro%20Manila%2C%20Philippines!5e0!3m2!1sen!2sgh!4v1791011829026!5m2!1sen!2sgh"
-                  allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+                  title="Map showing the location of White Water Rafting Company" allowfullscreen
+                  loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
                 </iframe>
             </div>
 
             <form class="contact-form">
 
                 <div class="form-row">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Placeholder" required>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
                 </div>
 
                 <div class="form-row">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Placeholder" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email"
+                      required>
                 </div>
+
+                <fieldset>
+                    <legend>Message Purpose</legend>
+
+                    <label for="purpose-general">
+                        <input type="radio" id="purpose-general" name="purpose" value="general"
+                          required>
+                        General Inquiry
+                    </label>
+
+                    <label for="purpose-reservation">
+                        <input type="radio" id="purpose-reservation" name="purpose"
+                          value="reservation">
+                        Reservation Question
+                    </label>
+
+                    <label for="purpose-suggestion">
+                        <input type="radio" id="purpose-suggestion" name="purpose"
+                          value="suggestion">
+                        Website Suggestion
+                    </label>
+
+                </fieldset>
+
+                <div class="form-row">
+                    <label for="message">Message:</label>
+
+                    <textarea id="message" name="message" placeholder="Type your message here"
+                      required></textarea>
+                </div>
+
+                <label class="newsletter" for="newsletter">
+                    <input id="newsletter" type="checkbox" name="newsletter">
+
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Get in Touch!</button>
+
             </form>
-        </section>
 
-
-        <fieldset>
-            <legend>Message Purpose</legend>
-
-            <label for="purpose-general">General Inquiry</label>
-            <input type="radio" id="purpose-general" name="purpose" value="general" required>
-
-            <label for="purpose-reservation">Reservation Question</label>
-            <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
-
-            <label for="purpose-suggestion">Website Suggestion</label>
-            <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
-
-        </fieldset>
-
-        <div class="form-row">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Type here" required></textarea>
         </div>
-
-        <label class="newsletter">
-            <input id="newsletter" type=checkbox name="newsletter">
-            Please subscribe me to the monthly newsletter
-        </label>
-
-        <button type="submit">Get in Touch!</button>
-
-        </form>
-        </section>
 
         <section class="employees">
             <h2>We Are Here to Serve You</h2>
